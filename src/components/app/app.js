@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 // import { Route, Switch } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import styled from 'styled-components';
-import GlobalStyles from '../../styles/global';
-import { $cream } from '../../styles/colors';
+import GlobalStyles from 'styles/global';
+import { $cream } from 'styles/colors';
 
 const Test = styled.div`
   color: ${$cream};

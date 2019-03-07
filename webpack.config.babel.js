@@ -27,6 +27,16 @@ const config = {
     ],
   },
 
+  resolve: {
+    alias: {
+      components: `${__dirname}/src/components`,
+      fonts: `${__dirname}/src/fonts`,
+      images: `${__dirname}/src/images`,
+      styles: `${__dirname}/src/styles`,
+      utils: `${__dirname}/src/utils`,
+    },
+  },
+
   plugins: [
     new webpack.EnvironmentPlugin({ NODE_ENV: 'development' }),
     new webpack.NamedModulesPlugin(),
