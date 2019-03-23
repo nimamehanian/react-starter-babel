@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import styled from 'styled-components';
@@ -14,26 +14,19 @@ const Test = styled.div`
   padding: 0px 0px 0px 8px;
 `;
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div>
-        <GlobalStyles />
-        <Test>yolo, baby</Test>
-        {/* <Header /> */}
-        {/* <Switch> */}
-        {/* <Route exact path="/pathA" component={CompA} /> */}
-        {/* <Route exact path="/pathB" component={CompB} /> */}
-        {/* </Switch> */}
-        {/* <Footer /> */}
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <GlobalStyles />
+      <Test>yolo, baby</Test>
+      {/* <Header /> */}
+      {/* <Switch> */}
+      {/* <Route exact path="/pathA" component={CompA} /> */}
+      {/* <Route exact path="/pathB" component={CompB} /> */}
+      {/* </Switch> */}
+      {/* <Footer /> */}
+    </div>
+  );
 }
 
 export default hot(module)(App);
