@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
     background: #f6f9fc;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
   @font-face {
