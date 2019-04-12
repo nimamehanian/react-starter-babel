@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import App from './app';
 
-const mapStateToProps = state => ({
+const mapStateToProps = () => ({
 });
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = () => ({
 });
 
 const AppContainer = connect(
