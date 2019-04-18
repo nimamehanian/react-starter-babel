@@ -1,5 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
+import BrandonBld from 'fonts/brandon/brandon-bold.woff2';
+import BrandonReg from 'fonts/brandon/brandon-regular.woff2';
+import BrandonLte from 'fonts/brandon/brandon-light.woff2';
+
 const GlobalStyles = createGlobalStyle`
   html, body {
     margin: 0px;
@@ -18,8 +22,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   @font-face {
-    font-family: "";
-    src: url("");
+    font-family: "Brandon Bld";
+    src: url(${BrandonBld});
+  }
+
+  @font-face {
+    font-family: "Brandon Reg";
+    src: url(${BrandonReg});
+  }
+
+  @font-face {
+    font-family: "Brandon Lte";
+    src: url(${BrandonLte});
   }
 `;
 
