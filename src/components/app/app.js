@@ -1,6 +1,6 @@
+import { hot } from 'react-hot-loader/root';
 import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
-import { hot } from 'react-hot-loader';
 import styled from 'styled-components';
 import GlobalStyles from 'styles/global';
 import { $cream } from 'styles/colors';
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <GlobalStyles />
-      <Test>yolo, baby</Test>
+      <Test>yolo</Test>
       {/* <Header /> */}
       {/* <Switch> */}
       {/* <Route exact path="/pathA" component={CompA} /> */}
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default hot(module)(App);
+export default hot(App);
