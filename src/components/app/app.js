@@ -3,28 +3,42 @@ import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 import GlobalStyles from 'styles/global';
-import { $cream } from 'styles/colors';
+import { ThemeProvider } from '@material-ui/styles';
+import { createMuiTheme } from '@material-ui/core';
+// import AuthForm from 'components/authForm/authForm';
+import { $white, $olive } from 'styles/colors';
 
-const Test = styled.div`
-  color: ${$cream};
-  background: #444;
+const Header = styled.div`
+  color: ${$white};
+  background: ${$olive};
   height: 60px;
   font-size: 20px;
+  font-family: 'Apercu Med';
   line-height: 3;
   padding: 0px 0px 0px 8px;
 `;
 
 function App() {
+  const theme = createMuiTheme({
+    props: {
+      MuiButtonBase: {
+        disableRipple: true,
+      },
+    },
+  });
+
   return (
     <div>
       <GlobalStyles />
-      <Test>yolo</Test>
-      {/* <Header /> */}
-      {/* <Switch> */}
-      {/* <Route exact path="/pathA" component={CompA} /> */}
-      {/* <Route exact path="/pathB" component={CompB} /> */}
-      {/* </Switch> */}
-      {/* <Footer /> */}
+      <ThemeProvider theme={theme}>
+        <Header>yolo</Header>
+        {/* <Header /> */}
+        {/* <Switch> */}
+        {/* <Route exact path="/" render={(props) => <AuthForm primaryColor={$olive} {...props} />} /> */}
+        {/* <Route exact path="/pathB" component={ComponentB} /> */}
+        {/* </Switch> */}
+        {/* <Footer /> */}
+      </ThemeProvider>
     </div>
   );
 }
