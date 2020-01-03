@@ -37,9 +37,9 @@
   },
   "dependencies": {
     "@hot-loader/react-dom": "16.11.0",
-    "@material-ui/core": "4.8.0",
+    "@material-ui/core": "4.8.2",
     "@material-ui/icons": "4.5.1",
-    "@material-ui/styles": "4.7.1",
+    "@material-ui/styles": "4.8.2",
     "connected-react-router": "6.6.1",
     "firebase": "7.6.1",
     "history": "4.10.1",
@@ -53,7 +53,7 @@
     "redux": "4.0.5",
     "redux-devtools-extension": "2.13.8",
     "redux-observable": "1.2.0",
-    "rxjs": "6.5.3",
+    "rxjs": "6.5.4",
     "styled-components": "4.4.1"
   },
   "devDependencies": {
@@ -73,7 +73,7 @@
     "file-loader": "5.0.2",
     "jest": "24.9.0",
     "url-loader": "3.0.0",
-    "webpack": "4.41.4",
+    "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "3.10.1"
   }
