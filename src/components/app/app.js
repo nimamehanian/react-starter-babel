@@ -32,7 +32,6 @@ function App() {
       <GlobalStyles />
       <ThemeProvider theme={theme}>
         <Header>yolo</Header>
-        {/* <Header /> */}
         {/* <Switch> */}
         {/* <Route exact path="/" render={(props) => <AuthForm primaryColor={$olive} {...props} />} /> */}
         {/* <Route exact path="/pathB" component={ComponentB} /> */}
