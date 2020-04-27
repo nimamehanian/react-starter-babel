@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import { $text1 } from 'styles/colors';
 
+import TiemposMed from 'fonts/tiempos/tiempos-med.woff2';
+
 import ApercuMed from 'fonts/apercu/apercu-med.woff2';
 import ApercuReg from 'fonts/apercu/apercu-reg.woff2';
 
@@ -16,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 16px;
     color: ${$text1};
     background: #f6f9fc;
-    font-family: 'Apercu Reg';
+    font-family: 'Tiempos Med';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -25,6 +27,11 @@ const GlobalStyles = createGlobalStyle`
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  @font-face {
+    font-family: "Tiempos Med";
+    src: url(${TiemposMed});
   }
 
   @font-face {

@@ -13,7 +13,7 @@ const Header = styled.div`
   background: ${$olive};
   height: 60px;
   font-size: 20px;
-  font-family: 'Apercu Med';
+  font-family: 'Tiempos Med';
   line-height: 3;
   padding: 0px 0px 0px 8px;
 `;
@@ -31,7 +31,7 @@ function App() {
     <div>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Header>yolo</Header>
+        <Header>Yolo — Here is your app. Let's get started!</Header>
         {/* <Switch> */}
         {/* <Route exact path="/" render={(props) => <AuthForm primaryColor={$olive} {...props} />} /> */}
         {/* <Route exact path="/pathB" component={ComponentB} /> */}
