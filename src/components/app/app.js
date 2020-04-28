@@ -6,15 +6,16 @@ import GlobalStyles from 'styles/global';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core';
 // import AuthForm from 'components/authForm/authForm';
-import { $white, $olive } from 'styles/colors';
+import { $sunset, $gold } from 'styles/colors';
 
 const Header = styled.div`
-  color: ${$white};
-  background: ${$olive};
+  color: ${$gold};
+  color: #fff;
+  background: ${$sunset};
   height: 60px;
-  font-size: 20px;
-  font-family: 'Tiempos Med';
-  line-height: 3;
+  font-size: 30px;
+  font-family: 'Andes Reg';
+  line-height: 2;
   padding: 0px 0px 0px 8px;
 `;
 
@@ -31,7 +32,7 @@ function App() {
     <div>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Header>Yolo — Here is your app. Let's get started!</Header>
+        <Header>Title</Header>
         {/* <Switch> */}
         {/* <Route exact path="/" render={(props) => <AuthForm primaryColor={$olive} {...props} />} /> */}
         {/* <Route exact path="/pathB" component={ComponentB} /> */}

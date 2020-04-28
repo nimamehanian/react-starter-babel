@@ -1,14 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
-import { $text1 } from 'styles/colors';
+import { $charcoal } from 'styles/colors';
 
-import TiemposMed from 'fonts/tiempos/tiempos-med.woff2';
+import CanelaMed from 'fonts/canela/canela-med.woff2';
 
-import ApercuMed from 'fonts/apercu/apercu-med.woff2';
-import ApercuReg from 'fonts/apercu/apercu-reg.woff2';
-
-import BrandonBld from 'fonts/brandon/brandon-bold.woff2';
-import BrandonReg from 'fonts/brandon/brandon-regular.woff2';
-import BrandonLte from 'fonts/brandon/brandon-light.woff2';
+import AndesReg from 'fonts/andes/andes-reg.woff2';
+import AndesMed from 'fonts/andes/andes-med.woff2';
 
 const GlobalStyles = createGlobalStyle`
   html, body {
@@ -16,9 +12,9 @@ const GlobalStyles = createGlobalStyle`
     padding: 0px;
     outline: none;
     font-size: 16px;
-    color: ${$text1};
+    color: ${$charcoal};
     background: #f6f9fc;
-    font-family: 'Tiempos Med';
+    font-family: 'Andes Reg';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -30,33 +26,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   @font-face {
-    font-family: "Tiempos Med";
-    src: url(${TiemposMed});
+    font-family: "Canela Med";
+    src: url(${CanelaMed});
   }
 
   @font-face {
-    font-family: "Apercu Med";
-    src: url(${ApercuMed});
+    font-family: "Andes Reg";
+    src: url(${AndesReg});
   }
 
   @font-face {
-    font-family: "Apercu Reg";
-    src: url(${ApercuReg});
-  }
-
-  @font-face {
-    font-family: "Brandon Bld";
-    src: url(${BrandonBld});
-  }
-
-  @font-face {
-    font-family: "Brandon Reg";
-    src: url(${BrandonReg});
-  }
-
-  @font-face {
-    font-family: "Brandon Lte";
-    src: url(${BrandonLte});
+    font-family: "Andes Med";
+    src: url(${AndesMed});
   }
 `;
 

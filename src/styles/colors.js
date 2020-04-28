@@ -1,14 +1,12 @@
-export const $cream = '#fdfdfd';
-export const $dust = '#a9a9a9';
-export const $sunset = '#985e6d';
-
-export const $lime = '#3ecf8e';
-export const $olive = '#63b99f';
-export const $slate = '#f6f9fc';
-
-export const $text1 = '#525f7f';
-
 export const $white = '#ffffff';
-export const $grey3 = '#d3dde4';
 
-export const $GOLDEN_RATIO = 1.61803399;
+export const $sunset = '#985e6d';
+export const $gold = '#d8b16b';
+export const $cream = '#ffead0';
+export const $pussy = '#f76f8e';
+export const $charcoal = '#37505c';
+
+export const $test = '#e07a5f';
+
+export const $GOLDEN_RATIO_MACRO = 1.61803399;
+export const $GOLDEN_RATIO_MICRO = 0.61803399;
