@@ -6,10 +6,9 @@ import GlobalStyles from 'styles/global';
 import { ThemeProvider } from '@material-ui/styles';
 import { createMuiTheme } from '@material-ui/core';
 // import AuthForm from 'components/authForm/authForm';
-import { $sunset, $gold } from 'styles/colors';
+import { $sunset } from 'styles/colors';
 
 const Header = styled.div`
-  color: ${$gold};
   color: #fff;
   background: ${$sunset};
   height: 60px;
