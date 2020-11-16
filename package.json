@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "start",
   "main": "./src/index.js",
-  "author": "Nima Mehanian",
+  "author": "me",
   "license": "MIT",
   "private": true,
   "babel": {
@@ -44,7 +44,6 @@
     "firebase": "7.20.0",
     "history": "5.0.0",
     "lodash": "4.17.20",
-    "node-fetch": "2.6.1",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

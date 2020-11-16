@@ -31,7 +31,6 @@ function App() {
     <div>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Header>Title</Header>
         {/* <Switch> */}
         {/* <Route exact path="/" render={(props) => <AuthForm primaryColor={$olive} {...props} />} /> */}
         {/* <Route exact path="/pathB" component={ComponentB} /> */}

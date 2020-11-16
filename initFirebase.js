@@ -2,10 +2,11 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import { FIREBASE_API_KEY } from 'root/keys';
 
-firebase.initializeApp({
-  apiKey: FIREBASE_API_KEY,
-  authDomain: 'PROJECT_NAME.web.app',
-  projectId: 'PROJECT_NAME',
-});
+const projectId = 'playground2712';
 
-export default firebase;
+export default firebase.initializeApp({
+  apiKey: FIREBASE_API_KEY,
+  authDomain: `${projectId}.web.app`,
+  databaseURL: `https://${projectId}.firebaseio.com`,
+  projectId,
+});
